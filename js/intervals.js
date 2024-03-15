@@ -1,0 +1,16 @@
+const intervals = [
+    {name: "Чиста прима", degrees: 0, semitones: 0},
+    {name: "Мала секунда", degrees: 1, semitones: 1},
+    {name: "Велика секунда", degrees: 1, semitones: 2},
+    {name: "Мала терція",  degrees: 2, semitones: 3},
+    {name: "Велика терція", degrees: 2, semitones: 4},
+    {name: "Чиста кварта", degrees: 3, semitones: 5}, 
+    {name: "Збільшена кварта", degrees: 3, semitones: 6},
+    {name: "Зменшена квінта", degrees: 4, semitones: 6},
+    {name: "Чиста квінта", degrees: 4, semitones: 7},
+    {name: "Мала секста", degrees: 5, semitones: 8},
+    {name: "Велика секста", degrees: 5, semitones: 9},
+    {name: "Мала септима", degrees: 6, semitones: 10}, 
+    {name: "Велика септима", degrees: 6, semitones: 11},
+    {name: "Чиста октава", degrees: 7,  semitones: 12},
+];

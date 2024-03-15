@@ -1,0 +1,56 @@
+.answer-sound-button,
+.answer-sign-button {
+    display: none;
+}
+
+.answer-sound-label {
+    display: block;
+    width: 100px;
+}
+
+.answer-sign-label {
+    display: block;
+    width: 200px;
+}
+
+.answer-sound-text,
+.answer-sign-text {
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.answer-sound-text {
+    width: 100px;
+    color: blue;
+}
+
+.answer-sign-text {
+    width: 200px;
+    color: green;
+}
+
+.answer-sound-button:hover + .answer-sound-text,
+.answer-sound-button:focus + .answer-sound-text {
+    border: 3px solid blue;
+}
+
+.answer-sign-button:hover + .answer-sign-text,
+.answer-sign-button:focus + .answer-sign-text {
+    border: 3px solid green;
+}
+
+.answer-sound-button:checked + .answer-sound-text {
+    background-color: blue;
+    color: white;
+}
+
+.answer-sign-button:checked + .answer-sign-text {
+    background-color: green;
+    color: white;
+}

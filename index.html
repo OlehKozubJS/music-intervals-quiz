@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Music intervals quiz test</title>
+</head>
+<body>
+    <div class="general-info-output">Вітаємо у інтервальній вікторині!</div>
+    <form class="question-form">
+        <div class="question-output"></div>
+        <div class="entered-answer-output"></div>
+        <label class="answer-sound-label" for="answer-sound-button-c">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-c" value="До" checked>
+            <div class="answer-sound-text">До</div>
+        </label>
+        <label class="answer-sound-label" for="answer-sound-button-d">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-d" value="Ре">
+            <div class="answer-sound-text">Ре</div>
+        </label>
+        <label class="answer-sound-label" for="answer-sound-button-e">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-e" value="Мі">
+            <div class="answer-sound-text">Мі</div>
+        </label>
+        <label class="answer-sound-label" for="answer-sound-button-f">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-f" value="Фа">
+            <div class="answer-sound-text">Фа</div>            
+        </label>
+        <label class="answer-sound-label" for="answer-sound-button-g">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-g" value="Соль">
+            <div class="answer-sound-text">Соль</div>
+        </label>
+        <label class="answer-sound-label" for="answer-sound-button-a">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-a" value="Ля">
+            <div class="answer-sound-text">Ля</div>
+        </label>
+        <label class="answer-sound-label" for="answer-sound-button-b">
+            <input class="answer-sound-button" type="radio" name="answer-sound-button" id="answer-sound-button-b" value="Сі">
+            <div class="answer-sound-text">Сі</div>
+        </label>
+        <br>
+        <label class="answer-sign-label" for="flat">
+            <input class="answer-sign-button" type="radio" name="answer-sign-button" id="flat" value="-бемоль">
+            <div class="answer-sign-text">бемоль</div>
+        </label>
+        <label class="answer-sign-label" for="sharp">
+            <input class="answer-sign-button" type="radio" name="answer-sign-button" id="sharp" value="-дієз">
+            <div class="answer-sign-text">дієз</div>
+        </label>
+        <label class="answer-sign-label" for="no-sign">
+            <input class="answer-sign-button" type="radio" name="answer-sign-button" id="no-sign" value="" checked>
+            <div class="answer-sign-text">без знаку</div>
+        </label>
+        <label class="answer-sign-label" for="double-flat">
+            <input class="answer-sign-button" type="radio" name="answer-sign-button" id="double-flat" value="-дубль-бемоль">
+            <div class="answer-sign-text">дубль-бемоль</div>
+        </label>
+        <label class="answer-sign-label" for="double-sharp">
+            <input class="answer-sign-button" type="radio" name="answer-sign-button" id="double-sharp" value="-дубль-дієз">
+            <div class="answer-sign-text">дубль-дієз</div>
+        </label>
+        <br>
+        <button class="answer-button" type="submit">Enter Your Answer</button>
+    </form>
+    <br>
+    <button class="start-quiz-button" type="button">Start Quiz</button>
+
+    <script src="./js/intervals.js"></script>
+    <script src="./js/sounds and signs.js"></script>
+    <script src="./js/keys amd gamuts.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
